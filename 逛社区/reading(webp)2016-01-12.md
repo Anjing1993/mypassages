@@ -2,7 +2,7 @@
 ####说到网站优化，主要的目标之一就是减少发送到浏览器的数据量，而通常图片是页面构成当中最耗费流量的部分，因此降低图片的大小是一个很有效的前端性能优化的方法。虽然我们一般都会压缩我们的图片，但是对一个以图片为主的页面来说，质量更好，更小的图片当然更受欢迎。####
 ## webp ##
 它是由谷歌开发的一种图片格式，与JPGE相比，这种格式最多可以减少图片文件大小的34%，从而显著优化页面加载时间和宽带使用情况：
-![](https://raw.githubusercontent.com/Anjing1993/blog/gh-pages/images/file-size-comparison.png)
+![](https://raw.githubusercontent.com/Anjing1993/mypassages/master/images/file-size-comparison.png)
 根据谷歌团队的介绍，自从去年 Chrome Web Store 转而使用 WebP 后，整个网站图片的大小平均减少 30%。这相当于每天节省了数 tb 的带宽！谷歌的 Play Store 目前也使用 WebP 格式储存图像。
 
 WebP 格式支持无损和有损的图像压缩、alpha 通道透明度、颜色配置文件、元数据和动画，这些特性使 WebP 格式成为一个为网络上所使用的图像提供的一站式的解决方案。

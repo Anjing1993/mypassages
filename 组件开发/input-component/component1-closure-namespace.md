@@ -48,8 +48,8 @@ $(function(){
  &ensp;&ensp;很快，想要的效果实现了，我想很多初学者都会这样写，但是这样的代码真的是杂乱无章，如果这是活动页面上的，那还可以，但是假如我们的代码很多，很复杂，而且还是几个人合作写的，各种同名变量，同名函数...那我估计大家在合代码的时候要哭死吧。。。那么我们都知道js有作用域这个东西，我们是不是可以利用这个特性给自己的code给打上特意的“标签”，避免与别人的code发生冲突？答案是肯定的！这时候隔离作用域就要出场了~~~也就是利用变量去模拟命名空间
 ###二.利用命名空间优化
  &ensp;&ensp;然而什么是命名空间呢？我觉得它就像是java里面的包，它有自己的名字，它将我们需要的东西包在里面，需要的时候，引入这个包，通过这个包去使用包里面的东西，这是不是很友好呢？那么命名空间具体该怎么去使用呢？如图1和图2：就是起一个名字，把自己的东西包起来喔
-![图一](https://raw.githubusercontent.com/Anjing1993/blog/gh-pages/images/1.png)
-![图二](https://raw.githubusercontent.com/Anjing1993/blog/gh-pages/images/2.png)
+![](https://raw.githubusercontent.com/Anjing1993/mypassages/master/images/1.png)
+![](https://raw.githubusercontent.com/Anjing1993/mypassages/master/images/2.png)
 
  &ensp;&ensp;说了这么多，还是看看在我们的code具体如何实现吧...
 	
@@ -70,7 +70,7 @@ $(function(){
       bind : function(){
       //这里的this作为了对象中方法的内部函数，它是指向全局的，所以我们事先应该存下来
       
-关于this的详细讲解，请戳链接 [小鬼this](https://github.com/Anjing1993/blog/blob/gh-pages/_posts/about-this.md)
+关于this的详细讲解，请[戳链接](https://github.com/Anjing1993/mypassages/blob/master/js/about-this.md)
 
               var _this = this;
               this.vInput.on('input',function(){

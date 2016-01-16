@@ -101,7 +101,7 @@
     objName();     //小静静
 这是ES5提供的，其实bind的作用就是会创建一个新的函数，称为绑定函数。绑定函数会以创建它时传入bind的第一个参数作为this,传入bind的第二个参数以及以后的参数加上绑定函数运行时本身的参数按照顺序作为原函数的参数来调用原函数~
 bind实现的源码如下：
-![](https://raw.githubusercontent.com/Anjing1993/blog/gh-pages/images/bind.png)
+![](https://raw.githubusercontent.com/Anjing1993/mypassages/master/images/bind.png)
 它其实也是利用了call和apply的，这下this对我们来说应该不再是坑了吧~~~
 
      

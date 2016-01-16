@@ -1,6 +1,6 @@
-&ensp;&ensp;最近总是有些杂七杂八的事，所以没接着记录。。。今早眼睛刚睁开，就想码代码了，那就开始吧~~~前面我们讲述了用面向对象的思想去优化我们的组件，今天我们又要如何去优化呢？大家有没有发现，我们的代码对边界值其实也是有处理的：![](https://raw.githubusercontent.com/Anjing1993/blog/gh-pages/images/3.png)
+&ensp;&ensp;最近总是有些杂七杂八的事，所以没接着记录。。。今早眼睛刚睁开，就想码代码了，那就开始吧~~~前面我们讲述了用面向对象的思想去优化我们的组件，今天我们又要如何去优化呢？大家有没有发现，我们的代码对边界值其实也是有处理的：![](https://raw.githubusercontent.com/Anjing1993/mypassages/master/images/3.png)
 
-&ensp;&ensp;很明显，当我们输入的内容有一定的长度，就会提示输不进去，那么来看看我们的代码是怎么实现的呢：![](https://raw.githubusercontent.com/Anjing1993/blog/gh-pages/images/tipe.png)
+&ensp;&ensp;很明显，当我们输入的内容有一定的长度，就会提示输不进去，那么来看看我们的代码是怎么实现的呢：![](https://raw.githubusercontent.com/Anjing1993/mypassages/master/images/tipe.png)
 
 &ensp;&ensp;一般我们都会利用条件判断去实现，但是如果我们的情况很多，代码很多，那是不是就要写mang个if呢？这时候我们就应该想想办法啦~看了前辈的博客，说是要使用观察者模式，我们知道js最常用的有九种设计模式，那么是什么是观察者模式呢？
 ###什么是观察者模式
@@ -8,8 +8,8 @@
 
 &ensp;&ensp;也就是说，我们需要观察输入的数字并且去发布通知，另一个人在一旁听我们的通知，发现了边界值，立马就去做些操作，那么就会有一个通知和监听机制，如下：
 
-![](https://raw.githubusercontent.com/Anjing1993/blog/gh-pages/images/observe1.png)
-![](https://raw.githubusercontent.com/Anjing1993/blog/gh-pages/images/observe2.png)
+![](https://raw.githubusercontent.com/Anjing1993/mypassages/master/images/observe1.png)
+![](https://raw.githubusercontent.com/Anjing1993/mypassages/master/images//observe2.png)
  &ensp;&ensp;我们就需要像上面这样去处理，多了两个方法fire(),on(),要想所有继承Base的都具有观察这模式，那就需要修改我们的Base了
 ###观察者机制实现
 
