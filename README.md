@@ -15,6 +15,8 @@ There are my some passages of studying
 > art模板的学习
 
 > 文章推荐，请[戳链接](http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=401657042&idx=1&sn=c06773e257b3ae662f8389b32cbbcebc&scene=2&srcid=0115bRdbpWzsFYbPsPAu1JHn&from=timeline&isappinstalled=0#wechat_redirect)~
+
+
 ## 第二周附加 ##
 > 做毕设
 > 
