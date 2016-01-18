@@ -10,7 +10,7 @@ There are my some passages of studying
 
 > 逛社区，做记录
 
-## 第一周附加 ##
+## 第一周 ##
 
 > [art模板的学习](https://github.com/Anjing1993/mypassages/blob/master/js/art%E6%A8%A1%E6%9D%BF2016-01-17.md)
 
@@ -34,7 +34,7 @@ There are my some passages of studying
 
 - [this](https://github.com/Anjing1993/mypassages/blob/master/js/about-this2016-01-16.md)
 
-## 第二周附加 ##
+## 第二周 ##
 > 做毕设
 
 > 前端[百宝箱推荐~](https://github.com/nieweidong/fetool)
