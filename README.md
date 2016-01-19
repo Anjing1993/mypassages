@@ -37,7 +37,7 @@ There are my some passages of studying
 ## 第二周 ##
 > 做毕设
 
-> 前端[百宝箱推荐~](https://github.com/nieweidong/fetool)
+> [前端百宝箱推荐~](https://github.com/nieweidong/fetool)
 
 > 读书：
 
