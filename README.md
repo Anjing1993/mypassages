@@ -45,7 +45,7 @@ There are my some passages of studying
 - [js高程(原型对象)&ensp;&ensp;2016-01-18](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1)2016-01-18.md)
 - [js语言精粹(对象)&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%AF%B9%E8%B1%A1)2016-01-19.md)
 - [js语言精粹(函数)&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%87%BD%E6%95%B0)2016-01-19.md)
-- [js语言精粹(数组)&ensp;&ensp;2016-01-29](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E6%95%B0%E7%BB%84)2016-01-20.md)
+- [js语言精粹(数组)&ensp;&ensp;2016-01-20](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E6%95%B0%E7%BB%84)2016-01-20.md)
 
 
 
