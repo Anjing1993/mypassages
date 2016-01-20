@@ -54,4 +54,5 @@ There are my some passages of studying
 
 - [LoadersCss &ensp;&ensp;&ensp;&ensp;&ensp;2016-01-18](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/LoadersCss2016-01-18.md)
 - [WeUl&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/WeUl2016-01-19.md)
+- [页面渲染&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-20](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%932016-01-20.md)
 
