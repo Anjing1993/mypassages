@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script type="text/javascript">
+    window.onload = function(){
+        //可以调整事件的发生顺序
+        var input = document.getElementsByTagName('input')[0];
+        console.log(input.value);
+        input.onclick = function A() {
+          setTimeout(function B() {
+            console.log('B');
+          }, 0);
+        };
+
+        document.body.onclick = function C() {
+          console.log('c');
+        };
+
+     //2.用户自定义的回调函数，通常在浏览器的默认动作之前触发。
+      // document.getElementById('test').onkeypress = function(event) {
+      //   this.value = this.value.toUpperCase();
+      // }
+      //改进
+        document.getElementById('test').onkeypress = function() {
+        var self = this;
+        setTimeout(function() {
+          self.value = self.value.toUpperCase();
+        }, 0);
+      }
+}
+        
+    </script>
+</head>
+<body>
+<input type="button" value="按钮1" />
+<input type="button" value="按钮2" />
+<input type="button" value="按钮3" />
+<input type="input" value="button" id="test" />
+</body>
+</html>
