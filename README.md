@@ -56,6 +56,7 @@
 - [js语言精粹(数组)&ensp;&ensp;2016-01-20](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E6%95%B0%E7%BB%84)2016-01-20.md)
 - [js高程(BOM)&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-21](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(BOM)2016-01-21.md)
 - [js(部分思维导图)&ensp;&ensp;2016-01-22](https://www.processon.com/mind/55d14785e4b014d9c57e0076)
+- [js高程(客户端检测)2016-01-22](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%A3%80%E6%B5%8B)2016-01-22.md)
 - js高程(DOM)
 
 > 运用：
