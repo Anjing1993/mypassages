@@ -64,7 +64,7 @@
   &ensp;&ensp;&ensp;&ensp;&ensp; [单元测试](https://github.com/Anjing1993/my-construct-of-class/blob/master/jasmine-test/test.js)
  - [组件开发思考](https://github.com/Anjing1993/mypassages/tree/master/%E7%BB%84%E4%BB%B6%E5%BC%80%E5%8F%91/input-component)
    &ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;[代码及单元测试](https://github.com/Anjing1993/my-components)
-- 定时器运用
+- [定时器运用&ensp;&ensp;](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%AE%9A%E6%97%B6%E5%99%A8/%E5%AE%9A%E6%97%B6%E5%99%A8%E8%BF%90%E7%94%A8.md)  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[代码](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%AE%9A%E6%97%B6%E5%99%A8/test.html)
 
 
 > 逛社区
