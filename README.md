@@ -1,7 +1,8 @@
 # mypassages
 这是一个长期学习的模块，希望自己一定坚持学习和更新，不断成长！
 
-个人技能树
+- [js(部分思维导图)](https://www.processon.com/mind/55d14785e4b014d9c57e0076)
+- 个人技能树
 
 
 
@@ -55,7 +56,6 @@
 - [js语言精粹(函数)&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%87%BD%E6%95%B0)2016-01-19.md)
 - [js语言精粹(数组)&ensp;&ensp;2016-01-20](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E6%95%B0%E7%BB%84)2016-01-20.md)
 - [js高程(BOM)&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-21](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(BOM)2016-01-21.md)
-- [js(部分思维导图)&ensp;&ensp;2016-01-22](https://www.processon.com/mind/55d14785e4b014d9c57e0076)
 - [js高程(客户端检测)2016-01-22](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%A3%80%E6%B5%8B)2016-01-22.md)
 - js高程(DOM)
 
@@ -73,9 +73,11 @@
 - [LoadersCss &ensp;&ensp;&ensp;&ensp;&ensp;2016-01-18](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/LoadersCss2016-01-18.md)
 - [WeUl&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/WeUl2016-01-19.md)
 - [页面渲染&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-20](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%932016-01-20.md)
+- margin双倍       2016-01-21
+- 2016-01-22
 	
 > 本周感想：
 
-- 逛社区偏重简单了解，需注意；
-- 除了运用还要增加练习模块。下周改进！
+- 逛社区偏重简单了解，需注意，之前只是想通过逛社区拓宽一下知识的广度，现在觉得可以多花时间继续深入一下一些问题的根源，加大知识的深度；
+- 除了运用还要增加练习模块，量不用太多，但是一定要保证完全理解。下周改进！
 
