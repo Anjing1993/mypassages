@@ -54,6 +54,7 @@
 - [js语言精粹(对象)&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%AF%B9%E8%B1%A1)2016-01-19.md)
 - [js语言精粹(函数)&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%87%BD%E6%95%B0)2016-01-19.md)
 - [js语言精粹(数组)&ensp;&ensp;2016-01-20](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E6%95%B0%E7%BB%84)2016-01-20.md)
+- [js高程(BOM)&ensp;&ensp;&ensp;&ensp;&ensp;&2016-01-21](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(BOM)2016-01-21.md)
 
 > 运用：
 
@@ -68,7 +69,7 @@
 - [LoadersCss &ensp;&ensp;&ensp;&ensp;&ensp;2016-01-18](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/LoadersCss2016-01-18.md)
 -[WeUl&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/WeUl2016-01-19.md)
 - [页面渲染&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-20](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%932016-01-20.md)
-
+	
 > 本周感想：
 
 - 逛社区偏重简单了解，需注意；
