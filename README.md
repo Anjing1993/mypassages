@@ -1,7 +1,7 @@
 # mypassages
 There are my some passages of studying
 
-[个人博客链接](http://blog.sina.com.cn/s/articlelist_2980845663_0_1.html)~
+个人技能树
 
 
 
@@ -10,9 +10,11 @@ There are my some passages of studying
 
 > 逛社区，做记录
 
+> 加强练习，使用
+
 ## 第一周 ##
 
-> [art模板的学习](https://github.com/Anjing1993/mypassages/blob/master/js/art%E6%A8%A1%E6%9D%BF2016-01-17.md)
+> [art模板的学习（待补充）](https://github.com/Anjing1993/mypassages/blob/master/js/art%E6%A8%A1%E6%9D%BF2016-01-17.md)
 
 > 文章推荐，请[戳链接](http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=401657042&idx=1&sn=c06773e257b3ae662f8389b32cbbcebc&scene=2&srcid=0115bRdbpWzsFYbPsPAu1JHn&from=timeline&isappinstalled=0#wechat_redirect)~
 
@@ -34,6 +36,12 @@ There are my some passages of studying
 
 - [this](https://github.com/Anjing1993/mypassages/blob/master/js/about-this2016-01-16.md)
 
+>本周感想
+ 
+
+
+- 读书偏重理论，接下来应该多做练习，并且利用所学的知识运用到实际中。下周改进！
+
 ## 第二周 ##
 > 做毕设
 
@@ -46,8 +54,12 @@ There are my some passages of studying
 - [js语言精粹(对象)&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%AF%B9%E8%B1%A1)2016-01-19.md)
 - [js语言精粹(函数)&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%87%BD%E6%95%B0)2016-01-19.md)
 - [js语言精粹(数组)&ensp;&ensp;2016-01-20](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E6%95%B0%E7%BB%84)2016-01-20.md)
+> 运用：
 
-
+ - [类构造器的构建](https://github.com/Anjing1993/my-construct-of-class/blob/master/jicheng.html)
+  &ensp;&ensp;&ensp;&ensp;&ensp; [单元测试](https://github.com/Anjing1993/my-construct-of-class/blob/master/jasmine-test/test.js)
+ - [组件开发思考](https://github.com/Anjing1993/mypassages/tree/master/%E7%BB%84%E4%BB%B6%E5%BC%80%E5%8F%91/input-component)
+   &ensp;&ensp;&ensp;&ensp;&ensp; &ensp;&ensp;[代码及单元测试](https://github.com/Anjing1993/my-components)
 
 
 > 逛社区
@@ -55,4 +67,8 @@ There are my some passages of studying
 - [LoadersCss &ensp;&ensp;&ensp;&ensp;&ensp;2016-01-18](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/LoadersCss2016-01-18.md)
 - [WeUl&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-19](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/WeUl2016-01-19.md)
 - [页面渲染&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;2016-01-20](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%932016-01-20.md)
+> 本周感想：
+
+- 逛社区偏重简单了解，需注意；
+- 除了运用还要增加练习模块。下周改进！
 
