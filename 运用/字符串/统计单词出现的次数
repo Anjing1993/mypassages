@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>统计字符创中出现一个单词的次数</title>
+	<script type="text/javascript">
+      var s = 'the quick brown prototype fox jumps over valueOf hasOwnProperty prototype';
+		//方法一：
+		//存在的问题：单词中可能会出现对象原型上默认的方法，hasOwnProperty等,这时会将方法和出现的次数当做字符串连接在一起，从而统计出错
+		var result={};
+		s.split(' ').forEach(function(item){
+		   if(typeof result[item]==='undefined'){
+		       result[item] = 1;
+		   }else{
+		       result[item] += 1;
+		   }
+		});
+		   console.log(result);
+
+		//方法二：
+		//（1）存数据的时候比如单词是valueOf  就按照result["_valueOf"]去存，让它不再是默认变量，然后最后输出的时候，又把_删去
+		var result={};
+		s.split(' ').forEach(function(item){
+		   var index='_'+item;
+		   if(typeof result[index]==='undefined'){
+		       result[index] = 1;
+		   }else{
+		       result[index] += 1;
+		   }
+		});
+		   var reStr='';
+		   for(var index in result){
+		       var item = index.slice(1);
+		       reStr = reStr +' '+item+':'+result[index];
+		   }
+		   console.log(reStr);
+
+		//方法法三：由于前面的那些方法是存在对象原型上的，那我们可以创建一个没有原型的对象
+		//问题：如果没有es5呢，原生实现Object.create
+		if (typeof Object.create !== 'function') {
+		  Object.create = function (o) {
+		    if (arguments.length !== 1) {
+		      throw new Error('Object.crete polyfill only accept one parameter');
+		    }
+		    function F() {}
+		    F.prototype = o;
+		    return new F();
+		  };
+		}
+		var result = {};
+		//创建没有原型的对象
+		//result.__proto__ = null;//可能会有兼容性
+		result = Object.create(null);
+		s.split(' ').forEach(function(item){
+			if(typeof result[item]==='undefined'){
+		         result[item] = 1;
+			}else{
+		         result[item] += 1;
+			}
+		});
+		console.log(result);
+	</script>
+</head>
+<body>
+</body>
+</html>
