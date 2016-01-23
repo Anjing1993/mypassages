@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>对象扁平化</title>
+	<script type="text/javascript">
+	    //对象扁平化：总分从小到大排序，总分一样的按照yw成绩排序
+		var arr=[{
+						  name:'张三',
+						  yw: 4,
+						  sx: 5
+						},{
+						  name:'李四',
+						  yw: 5,
+						  sx: 5
+						},{
+						  name:'王五',
+						  yw: 6,
+						  sx: 6
+						},{
+						  name:'赵六',
+						  yw: 4,
+						  sx: 6
+						},{
+						  name:'马七',
+						  yw: 5,
+						  sx: 4
+						}];
+    //方法一：直接排序，但是优先级规则变动，代码就变动大，不通用
+	//      console.log(arr.sort(function(a,b){
+	//     if(a.yw + a.sx < b.yw+b.sx){
+	//       return -1;
+	//     } else if(a.yw + a.sx === b.yw+b.sx){
+	//       if( a.sx < b.sx){
+	//         return -1
+	//       } else{
+	//         return 1;
+	//       }
+	//     } else if(a.yw + a.sx > b.yw+b.sx){
+	//       return 1
+	//     }
+	    
+	// }))
+ 
+    //方法二：规定优先级
+	function compare(a,b){
+	  return a - b;
+	}
+	//这个是优先级
+	var sortOrder = ['yw','sx','hx','sw'];
+	console.log(arr.sort(function(a,b){
+	    var sumA = 0, sumB = 0;
+	    for(var i = 0; i < sortOrder.length; i++) {
+	      //console.log(a[sortOrder[i]])
+	      if (typeof a[sortOrder[i]] !== 'undefined' ){
+	        sumA += a[sortOrder[i]];
+	        sumB += b[sortOrder[i]];
+	      }
+	      
+	    }
+	    
+	    var j = 0;
+	    var result = compare(sumA,sumB);
+	    if(result !== 0 ){
+	      return result;
+	    }
+	    do{
+	      result = compare(a[sortOrder[j]], b[sortOrder[j]]);
+	      j++;
+	      //0表示分数一样，继续下一个优先级
+	    }while(j < sortOrder.length && result )
+	    return result;
+	}));
+    //运行结果：
+	// 0: Object
+	// name: "张三"
+	// sx: 5
+	// yw: 4
+	// __proto__: Object
+	// 1: Object
+	// name: "马七"
+	// sx: 4
+	// yw: 5
+	// __proto__: Object
+	// 2: Object
+	// name: "李四"
+	// sx: 5
+	// yw: 5
+	// __proto__: Object
+	// 3: Object
+	// name: "赵六"
+	// sx: 6
+	// yw: 4
+	// __proto__: Object
+	// 4: Object
+	// name: "王五"
+	// sx: 6
+yw: 6
+	</script>
+</head>
+<body>
+
+</body>
+</html>
