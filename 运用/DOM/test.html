@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+      window.onload=function(){
+         document.getElementById('div1').onclick=function(){
+         	console.log(this.nodeName);
+         	console.log(this.nodeType);
+         	console.log(this.nodeValue);
+         	console.log(this.value); 
+         	console.log(this.firstChild.nodeValue);
+         	console.log(this.firstChild.value);
+         }
+         document.getElementById('btn').onclick=function(){
+         	console.log(this.nodeName);
+         	console.log(this.nodeType);
+         	console.log(this.nodeValue);
+         	console.log(this.value);
+         	var p=this.ownerDocument;
+         	console.log(p===document);
+         }
+         // console.log( document.getElementById('div1').nextSibling);
+      }
+	</script>
+</head>
+<body>
+<div id="div1">我是div</div><input id="btn" value="我是按钮" type="input" />
+<script type="text/javascript">
+	//console.log( document.getElementById('div1').nextSibling);
+	console.log( document.getElementById('div1').previousSibling);        //#text
+</script>
+</body>
+</html>
