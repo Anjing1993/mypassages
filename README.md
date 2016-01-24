@@ -20,7 +20,8 @@
 > js
 
 - js高程
-  - [2016-01-23&ensp;&ensp;js高程(DOM)](2016-01-20&ensp;&ensp;)
+  - 2016-01-24&ensp;&ensp;js高程(DOM(二))
+  - [2016-01-23&ensp;&ensp;js高程(DOM(一))](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(DOM)2016-01-23.md)
   - [2016-01-22&ensp;&ensp;js高程(客户端检测)](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%A3%80%E6%B5%8B)2016-01-22.md) 
   - [2016-01-21&ensp;&ensp;js高程(BOM)&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(BOM)2016-01-21.md)
   - [2016-01-18&ensp;&ensp;js高程(对象)&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AF%B9%E8%B1%A1)2016-01-18.md)
