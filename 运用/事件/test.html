@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM</title>
+  <style type="text/css">
+    #div1{
+      width:300px;
+      height:300px;
+      margin:0 auto;
+      background: pink;
+      overflow: hidden;
+    }
+    #div2{
+      width:200px;
+      height:200px;
+      margin:0 auto;
+      background: blue;
+      margin-top: 50px;
+      overflow: hidden;
+    }
+    #div3{
+      width:100px;
+      height:100px;
+      margin:0 auto;
+      background: green;
+      margin-top: 50px;
+    }
+
+  </style>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+  window.onload=function(){
+     var oDiv1 = document.querySelector('#div1');
+     var oDiv2 = document.querySelector('#div2');
+     var oDiv3 = document.querySelector('#div3');
+     document.documentElement.addEventListener('click',function(){
+        console.log('html');
+     });
+     document.addEventListener('click',function(){
+        console.log('document');
+     });
+     document.querySelector('body').addEventListener('click',function(){
+        console.log('body')
+     });
+     oDiv1.addEventListener('click',function(){
+        console.log('div1')
+     });
+     oDiv2.addEventListener('click',function(){
+        console.log('div2')
+     });
+     oDiv3.addEventListener('click',function(){
+        console.log('div3')
+     });
+   }
+ 
+	</script>
+</head>
+<body>
+<input id="btn" value="我是按钮" type="input" />
+<div id="div1">
+  <div id="div2">
+    <div id="div3"></div>
+  </div>
+</div>
+</body>
+</html>
