@@ -21,15 +21,59 @@
          	var p=this.ownerDocument;
          	console.log(p===document);
          }
-         // console.log( document.getElementById('div1').nextSibling);
+
+        //2.
+       var oUl = document.createElement('ul');
+       var a = [], t = [];
+       for(var i = 0;i<5; i++){
+           a[i] = document.createElement('li');
+           t[i] = document.createTextNode('I am'+' '+ i);
+           a[i].appendChild(t[i]);
+           oUl.appendChild(a[i]);
+       }
+        document.getElementById('div1').appendChild(oUl);
+	    a[2].setAttribute('id','li2');
+        console.log(a[2].id);                          //li2
+        console.log(a[2].getAttribute('id'));          //li2
+
+	    // a[2].setAttribute('class','li2');
+     //    console.log(a[2].class);                       //undefined
+     //    console.log(a[2].className);                   //li2
+	    // console.log(a[2].getAttribute('class'));       //li2
+     //    console.log(a[2].getAttribute('className'));   //null
+
+	    a[2].setAttribute('className','li2')
+	    console.log(a[2].className);                   //空白
+	    console.log(a[2].getAttribute('class'));       //null
+        console.log(a[2].getAttribute('className'));   //li2
+
+        a[2].setAttribute('hh','hh');
+        console.log(a[2].hh);                   //undefined
+	    console.log(a[2].getAttribute('hh'));   //hh
+
+
+	    //3.
+	    var oDiv = document.getElementById('div1');
+        var oBtn = document.getElementById('btn');
+        //移除指定节点
+		// oDiv.parentNode.removeChild(oDiv);
+  //       //插入节点
+  //       oUl.insertBefore(oDiv,oUl.chsildNodes[0]);
+  //       console.log(oDiv.innerHTML);
+  //      //clone
+       oDiv.onclick=function(){
+       	  console.log('123');
+       }
+       var o = oDiv.cloneNode(true);
+       console.log(o.id);
       }
 	</script>
 </head>
 <body>
-<div id="div1">我是div</div><input id="btn" value="我是按钮" type="input" />
+<input id="btn" value="我是按钮" type="input" />
+<div id="div1">我是div</div>
 <script type="text/javascript">
-	//console.log( document.getElementById('div1').nextSibling);
-	console.log( document.getElementById('div1').previousSibling);        //#text
+	console.log( document.getElementById('div1').previousSibling);        
 </script>
 </body>
 </html>
