@@ -44,6 +44,7 @@
 ## 综合运用： ##
  
  - 2016-01-25&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;留言板组件开发 
+ - 2016-01-25&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;元素获取器
  - [2016-01-23&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;对象扁平化](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%8E%9F%E5%9E%8B-%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AF%B9%E8%B1%A1%E6%89%81%E5%B9%B3%E5%8C%96.html) 
  - [2016-01-22&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;统计单词出现次数](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%8E%9F%E5%9E%8B-%E5%AD%97%E7%AC%A6%E4%B8%B2/%E7%BB%9F%E8%AE%A1%E5%8D%95%E8%AF%8D%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.html)
  - [2016-01-21&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;定时器运用&ensp;&ensp;](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%AE%9A%E6%97%B6%E5%99%A8/%E5%AE%9A%E6%97%B6%E5%99%A8%E8%BF%90%E7%94%A8.md)  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[代码](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%AE%9A%E6%97%B6%E5%99%A8/test.html)
@@ -55,6 +56,8 @@
 
 
 ## 逛社区 ##
+
+- 2016-01-25&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;typeof(null)==object根本原因
 - [2016-01-22&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;就要用css实现(转)](http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=401718037&idx=1&sn=1948181dba68a0661f152cd2551f06a9&scene=0#wechat_redirect)  
 - [2016-01-21&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;margin问题 ](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/margin%E9%97%AE%E9%A2%982016-01-21.md)
 - [2016-01-20&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;页面渲染](https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/%E7%BD%91%E9%A1%B5%E6%B8%B2%E6%9F%932016-01-20.md)

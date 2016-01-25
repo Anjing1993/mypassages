@@ -1,0 +1,1 @@
+1995年JS诞生时，根本没把null当作数据类型，而是Object的一种特殊值。下面是当年C源码，其中完全没考虑null。这就是typeof null === object的根本原因。
