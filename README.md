@@ -35,6 +35,7 @@
   
   
 - js精粹
+ - 2016-01-25&ensp;&ensp;js语言精粹(正则)
  - [2016-01-20&ensp;&ensp;js语言精粹(数组)&ensp;&ensp;](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E6%95%B0%E7%BB%84)2016-01-20.md)
  - [2016-01-19&ensp;&ensp;js语言精粹(对象)](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%AF%B9%E8%B1%A1)2016-01-19.md)
  - [2016-01-19&ensp;&ensp;js语言精粹(函数)](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%87%BD%E6%95%B0)2016-01-19.md)
