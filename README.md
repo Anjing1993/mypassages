@@ -18,8 +18,9 @@
 ## 读书 ##
 
 > js
-
+ 
 - js高程
+  - 2016-01-25&ensp;&ensp;js高程(事件)
   - [2016-01-24&ensp;&ensp;js高程(DOM(二))](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(DOM(%E4%BA%8C))2016-01-24.md)
   - [2016-01-23&ensp;&ensp;js高程(DOM(一))](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(DOM)2016-01-23.md)
   - [2016-01-22&ensp;&ensp;js高程(客户端检测)](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%A3%80%E6%B5%8B)2016-01-22.md) 
@@ -40,7 +41,8 @@
 
 
 ## 综合运用： ##
-
+ 
+ - 2016-01-25&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;留言板组件开发 
  - [2016-01-23&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;对象扁平化](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%8E%9F%E5%9E%8B-%E5%AD%97%E7%AC%A6%E4%B8%B2/%E5%AF%B9%E8%B1%A1%E6%89%81%E5%B9%B3%E5%8C%96.html) 
  - [2016-01-22&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;统计单词出现次数](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%8E%9F%E5%9E%8B-%E5%AD%97%E7%AC%A6%E4%B8%B2/%E7%BB%9F%E8%AE%A1%E5%8D%95%E8%AF%8D%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0.html)
  - [2016-01-21&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;定时器运用&ensp;&ensp;](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%AE%9A%E6%97%B6%E5%99%A8/%E5%AE%9A%E6%97%B6%E5%99%A8%E8%BF%90%E7%94%A8.md)  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;[代码](https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/%E5%AE%9A%E6%97%B6%E5%99%A8/test.html)
