@@ -41,7 +41,7 @@
  - [2016-01-19&ensp;&ensp;js语言精粹(函数)](https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%87%BD%E6%95%B0)2016-01-19.md)
 
 
-## 综合运用： ##
+## 运用： ##
  
  - 2016-01-26&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;留言板组件开发 
  - 2016-01-25&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;元素获取器

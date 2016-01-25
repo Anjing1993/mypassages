@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test3</title>
+	<style>
+		#test1{width:100px;height:100px;margin:0 auto;padding: 50px;background-color: red;}
+		#test2{width:100px;height:100px;margin:0 auto;background-color: #fff;}
+	</style>
+</head>
+<body>
+	<div id="test1">
+		<div id="test2">...</div>
+	</div>
+
+	<script>
+		var test1 = document.querySelector('#test1'),
+			test2 = document.querySelector('#test2');
+		document.documentElement.addEventListener('click',function(){
+			console.log(123);
+		});
+
+		test1.addEventListener('click',function(){
+			console.log(1);
+		});
+		// test1.addEventListener('click',function(){
+		// 	console.log(2);
+		// },true);
+		test2.addEventListener('click',function(){
+			console.log(3);
+		});
+		// test2.addEventListener('click',function(){
+		// 	setTimeout(function(){
+		// 		console.log(4);
+		// 	},0);
+		// });
+		// test2.addEventListener('click',function(){
+		// 	console.log(5);
+		// },true);
+		// test1.addEventListener('click',function(){
+		// 	console.log(6)
+		// },true);
+
+		//addEventListener第三个参数默认为的false，侦听器只在目标或冒泡阶段处理事件
+		//为 true时，侦听器只在捕获阶段处理事件，而不在目标或冒泡阶段处理事件
+		//由于IE的事件模型默认是在事件冒泡时执行的，也就是在useCapture等于false的时候执行，所以把在处理事件时
+		//把useCapture设置为false是比较安全，也实现兼容浏览器的效果。
+
+		//执行时，先事件捕获，再事件冒泡---->document到document的过程
+
+		//点击test1时   1---2---6
+		//解释：1,此时test1是目标对象，处于目标阶段的事件触发顺序是由事件注册顺序决定的
+		//		2,addEventListener可绑定多个事件
+
+		//点击test2时   2---6---3---5---1---4
+		//解释：1,先事件捕获，再事件冒泡
+		//		2,此时test1是目标对象，处于目标阶段的事件触发顺序是由事件注册顺序决定的
+		//		3,setTimeout是在所有进程结束之后才会执行
+
+
+		// test2.addEventListener('click',function(e){
+		// 	e.stopPropagation();
+		// 	console.log(7);
+		// });
+		//点击test1时   1---2---6
+		//解释：此时阻止的是test2的事件冒泡，对test1没有影响
+
+		//点击test2时   2---6---3---5---7---4
+		//解释：此时阻止了test2的事件冒泡，所以将不会有事件冒泡到test1
+
+
+		// test2.addEventListener('click',function(e){
+		// 	e.stopPropagation();
+		// 	console.log(8);
+		// },true);
+		//点击test1时   1---2---6
+		//解释：此时阻止的是test2的事件捕获，对test1没有影响
+
+		//点击test2时   2---6---3---5---8---4
+		//解释：此时阻止的是test2的事件捕获，也就是如果test2的子级还有点击事件，将不会发生
+
+
+		// test1.addEventListener('click',function(e){
+		// 	e.stopPropagation();
+		// 	console.log(9);
+		// });
+		//点击test1时   1---2---6---9
+		//解释：此时阻止了test1的事件冒泡，也就是如果test1的父级再有点击事件，将不会发生
+
+		//点击test2时   2---6---3---5---1---9---4
+		//解释：此时阻止了test1的事件冒泡，对test2没有影响
+
+
+		// test1.addEventListener('click',function(e){
+		// 	e.stopPropagation();
+		// 	console.log(10);
+		// },true);
+		//点击test1时   1---2---6---10
+		//解释：此时阻止了test1的事件捕获，也就是test1的子级再有点击事件，将不会发生
+		//点击test2时   2---6---10
+	</script>
+</div>
+</body>
+</html>
