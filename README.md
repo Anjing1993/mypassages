@@ -91,7 +91,7 @@
    </tr>
  <tr>
       <td>2016.01.18</td>
-      <td style="text-align:left;"><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AF%B9%E8%B1%A1)2016-01-18.md">对象</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1)2016-01-18.md">原型对象</a></td>
+      <td style="text-align:left;"><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AF%B9%E8%B1%A1)2016-01-18.md">对象</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1)2016-01-18.md">原型</a></td>
       <td style="text-align:left;"></td>
       <td style="text-align:left;"><a href="https://github.com/Anjing1993/my-construct-of-class/blob/master/jicheng.html">类构造器构建</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/my-construct-of-class/blob/master/jasmine-test/test.js">单元测试</a></td>
       <td style="text-align:left;"><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/LoadersCss2016-01-18.md">LoadersCss</a></td>
