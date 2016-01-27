@@ -22,7 +22,7 @@
       <td rowspan="2" >&ensp;&ensp;&ensp;时间</td>
       <td colspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;读书</td>
       <td rowspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;运用</td>
-      <td rowspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;社区</td>
+      <td rowspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;社区</td>
    </tr>
    <tr>
       <td >&ensp;&ensp;js高程</td>     
