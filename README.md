@@ -31,7 +31,7 @@
  <tr>
       <td>2016.01.28</td>
       <td ></td>
-      <td ><a href="#">方法</a></td>
+      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E6%96%B9%E6%B3%95).md">方法</a></td>
       <td ></td>
       <td ></td>
    </tr>
