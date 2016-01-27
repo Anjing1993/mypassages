@@ -17,15 +17,16 @@
 
 
 <table  style="border-collapse:collapse;" >
+
    <tr>
-      <td rowspan="2" style="text-align:right;">时间</td>
-      <td colspan="2" style="text-align:center;">读书</td>
-      <td rowspan="2" style="text-align:center;">运用</td>
-      <td rowspan="2" style="text-align:center;">社区</td>
+      <td rowspan="2" >&ensp;&ensp;&ensp;时间</td>
+      <td colspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;读书</td>
+      <td rowspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;运用</td>
+      <td rowspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;社区</td>
    </tr>
    <tr>
-      <td style="text-align:center;">js高程</td>     
-      <td style="text-align:center;">js精粹</td>
+      <td >&ensp;&ensp;js高程</td>     
+      <td >&ensp;&ensp;js精粹</td>
    </tr>
    <tr>
       <td>2016.01.27</td>
