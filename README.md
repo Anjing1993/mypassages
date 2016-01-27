@@ -17,14 +17,14 @@
 
 <table  style="border-collapse:collapse;text-align:center;" >
    <tr>
-      <td rowspan="2">时间</td>
-      <td colspan="2">读书</td>
-      <td rowspan="2">运用</td>
-      <td rowspan="2">社区</td>
+      <td rowspan="2" style="text-align:center;">时间</td>
+      <td colspan="2" style="text-align:center;">读书</td>
+      <td rowspan="2" style="text-align:center;">运用</td>
+      <td rowspan="2" style="text-align:center;">社区</td>
    </tr>
    <tr>
-      <td >js高程</td>     
-      <td colspan="">js精粹</td>
+      <td style="text-align:center;">js高程</td>     
+      <td style="text-align:center;">js精粹</td>
    </tr>
    <tr>
       <td>2016.01.27</td>
@@ -91,7 +91,7 @@
    </tr>
  <tr>
       <td>2016.01.18</td>
-      <td style="text-align:left;"><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AF%B9%E8%B1%A1)2016-01-18.md">对象</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1)2016-01-18.md">js高程(原型对象)</a></td>
+      <td style="text-align:left;"><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AF%B9%E8%B1%A1)2016-01-18.md">对象</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1)2016-01-18.md">原型对象</a></td>
       <td style="text-align:left;"></td>
       <td style="text-align:left;"><a href="https://github.com/Anjing1993/my-construct-of-class/blob/master/jicheng.html">类构造器构建</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/my-construct-of-class/blob/master/jasmine-test/test.js">单元测试</a></td>
       <td style="text-align:left;"><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/LoadersCss2016-01-18.md">LoadersCss</a></td>
