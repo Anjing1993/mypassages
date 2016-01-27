@@ -28,6 +28,13 @@
       <td >&ensp;&ensp;js高程</td>     
       <td >&ensp;&ensp;js精粹</td>
    </tr>
+ <tr>
+      <td>2016.01.28</td>
+      <td ></td>
+      <td ><a href="#">方法</a></td>
+      <td ></td>
+      <td ></td>
+   </tr>
    <tr>
       <td>2016.01.27</td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E8%A1%A8%E5%8D%95)2016-01-27.md">表单</a></td>
