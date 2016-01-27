@@ -15,9 +15,10 @@
 
 # 索引目录 #
 
+
 <table  style="border-collapse:collapse;" >
    <tr>
-      <td rowspan="2" style="text-align:center;">时间</td>
+      <td rowspan="2" style="text-align:right;">时间</td>
       <td colspan="2" style="text-align:center;">读书</td>
       <td rowspan="2" style="text-align:center;">运用</td>
       <td rowspan="2" style="text-align:center;">社区</td>
@@ -37,21 +38,21 @@
       <td>2016.01.26</td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E4%BA%8B%E4%BB%B6)2016-01-26.md">事件</a></td>
       <td ></td>
-      <td ><a href="#">留言板组件开发</a></td>
+      <td rowspan="2"><a href="#">留言板组件开发</a></td>
       <td ></td>
  </tr> 
  <tr>
       <td>2016.01.25</td>
       <td ></td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E6%AD%A3%E5%88%99)2016-01-25.md">正则</a></td>
-      <td ><a href="#">元素获取器</a></td>
       <td ></td>
+      
    </tr> 
 <tr>
       <td>2016.01.24</td>
       <td "><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(DOM(%E4%BA%8C))2016-01-24.md">DOM(二)</a></td>
       <td ></td>
-      <td ></td>
+      <td ><a href="#">元素获取器</a></td>
       <td ></td>
    </tr> 
 <tr>
@@ -86,20 +87,19 @@
       <td>2016.01.19</td>
       <td ></td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%AF%B9%E8%B1%A1)2016-01-19.md">对象</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E7%B2%BE%E7%B2%B9(%E5%87%BD%E6%95%B0)2016-01-19.md">函数</a></td>
-      <td ><a href="https://github.com/Anjing1993/mypassages/tree/master/%E7%BB%84%E4%BB%B6%E5%BC%80%E5%8F%91/input-component">组件开发思考</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/my-components">代码及单元测试</a></td>
+      <td rowspan=""><a href="https://github.com/Anjing1993/mypassages/tree/master/%E7%BB%84%E4%BB%B6%E5%BC%80%E5%8F%91/input-component">组件开发思考</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/my-components">代码及单元测试</a></td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/WeUl2016-01-19.md">WeUl</a></td>
    </tr>
  <tr>
       <td>2016.01.18</td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%AF%B9%E8%B1%A1)2016-01-18.md">对象</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1)2016-01-18.md">原型</a></td>
       <td ></td>
-      <td ><a href="https://github.com/Anjing1993/my-construct-of-class/blob/master/jicheng.html">类构造器构建</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/my-construct-of-class/blob/master/jasmine-test/test.js">单元测试</a></td>
+      <td rowspan="3"><a href="https://github.com/Anjing1993/my-construct-of-class/blob/master/jicheng.html">类构造器构建</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/my-construct-of-class/blob/master/jasmine-test/test.js">单元测试</a></td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/LoadersCss2016-01-18.md">LoadersCss</a></td>
    </tr>
 <tr>
       <td>2016.01.17</td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E9%97%AD%E5%8C%85)2016-01-17.md">闭包</a></td>
-      <td ></td>
       <td ></td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/PostCss2016-01-17.md">PostCss</a></td>
    </tr> 
@@ -107,7 +107,7 @@
       <td>2016.01.16</td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(%E5%87%BD%E6%95%B0)2016-01-16.md">函数</a></td>
       <td ></td>
-      <td ></td>
+
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/Echarts2016-01-16.md">Echarts3</a></td>
    </tr> 
 <tr>
