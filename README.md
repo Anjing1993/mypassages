@@ -32,7 +32,7 @@
       <td>2016.01.29</td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(canvas)2016-01-29.md">canvas</a></td>
       <td ></td>
-      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/canvas/%E4%B8%83%E5%B7%A7%E6%9D%BF.md">canvas七巧板</a>&ensp;&ensp;<a href="http://1.xuptradiu.sinaapp.com/clock/clock.html">html5时钟</a></td>
+      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/canvas/%E4%B8%83%E5%B7%A7%E6%9D%BF.md">canvas七巧板</a>&ensp;&ensp;<a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/canvas/html5%E6%97%B6%E9%92%9F.md">html5时钟</a></td>
       <td ></td>
    </tr>
  <tr>
