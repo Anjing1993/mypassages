@@ -29,10 +29,10 @@
       <td >&ensp;&ensp;js精粹</td>
    </tr>
 <tr>
-      <td>2016.01.28</td>
+      <td>2016.01.29</td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(canvas)2016-01-29.md">canvas</a></td>
       <td ></td>
-      <td ><a href="#">canvas七巧板</a>&ensp;&ensp;<a href="">html5时钟</a></td>
+      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%BF%90%E7%94%A8/canvas/qiqiaoban.html">canvas七巧板</a>&ensp;&ensp;<a href="">html5时钟</a></td>
       <td ></td>
    </tr>
  <tr>
