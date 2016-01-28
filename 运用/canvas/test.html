@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<canvas id="drawing" style="width:400px;height:400px;border:1px solid pink;">你的浏览器不支持canvas对象</canvas>
+<script type="text/javascript">
+    //1.绘制矩形
+	// var drawing = document.getElementById('drawing');
+	// if(drawing.getContext){
+ //       var cxt = drawing.getContext('2d');
+       
+ //       cxt.fillStyle="blue";
+ //       cxt.fillRect(10,10,50,50);
+
+ //       cxt.fillStyle="rgba(0,0,255,0.5)";
+ //       cxt.fillRect(30,30,100,100);
+
+ //       cxt.strokeStyle = "red";
+ //       cxt.strokeRect(50,50,100,100);
+      //2.复杂绘制
+     
+			var drawing = document.getElementById('drawing');
+			if(drawing.getContext){
+			     var cxt = drawing.getContext('2d');
+			     //开始路径
+			     cxt.beginPath();
+			     //绘制外圆
+			     cxt.arc(100,100,99,0,2*Math.PI,false);
+			     //绘制内圆
+			     cxt.moveTo(194,100);
+			     cxt.arc(100,100,94,0,2*Math.PI,false);
+			     //绘制分针
+			     cxt.moveTo(100,100);
+			     cxt.lineTo(100,15);
+			     //绘制时针
+			     cxt.moveTo(100,100);
+			     cxt.lineTo(35,100);
+			     //描边路径
+			     cxt.stroke();
+                 
+				}
+		</script>
+
+</body>
+</html>
