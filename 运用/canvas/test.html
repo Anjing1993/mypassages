@@ -4,7 +4,9 @@
 	<title></title>
 </head>
 <body>
+
 <canvas id="drawing" style="width:400px;height:400px;border:1px solid pink;">你的浏览器不支持canvas对象</canvas>
+
 <script type="text/javascript">
     //1.绘制矩形
 	// var drawing = document.getElementById('drawing');
@@ -25,22 +27,57 @@
 			if(drawing.getContext){
 			     var cxt = drawing.getContext('2d');
 			     //开始路径
-			     cxt.beginPath();
-			     //绘制外圆
-			     cxt.arc(100,100,99,0,2*Math.PI,false);
-			     //绘制内圆
-			     cxt.moveTo(194,100);
-			     cxt.arc(100,100,94,0,2*Math.PI,false);
-			     //绘制分针
-			     cxt.moveTo(100,100);
-			     cxt.lineTo(100,15);
-			     //绘制时针
-			     cxt.moveTo(100,100);
-			     cxt.lineTo(35,100);
-			     //描边路径
-			     cxt.stroke();
+			     // cxt.beginPath();
+			     // //绘制外圆
+			     // cxt.arc(100,100,99,0,2*Math.PI,false);
+			     // //绘制内圆
+			     // cxt.moveTo(194,100);
+			     // cxt.arc(100,100,94,0,2*Math.PI,false);
+			     // //绘制分针
+			     // cxt.moveTo(100,100);
+			     // cxt.lineTo(100,15);
+			     // //绘制时针
+			     // cxt.moveTo(100,100);
+			     // cxt.lineTo(35,100);
+			     // //描边路径
+			     // cxt.stroke();
                  
+
+        //3.线性渐变绘制
+		// var gradient = cxt.createLinearGradient(30,30,70,70);//30，30起始位置坐标，70，70为终点坐标
+		// gradient.addColorStop(0,"pink");   //色标位置为0
+		// gradient.addColorStop(1,"blue");	//色标位置为1
+        
+  //       cxt.fillStyle="blue";             //绘制蓝色矩形
+		// cxt.fillRect(0,0,50,50);
+
+		// cxt.fillStyle=gradient;           //绘制渐变蓝色矩形
+		// cxt.fillRect(30,30,50,50);
+		//4.径向渐变绘制
+		// var gradient = cxt.createRadialGradient(55,55,10,55,55,30);//30，30起始位置坐标，70，70为终点坐标
+		// gradient.addColorStop(0,"pink");   //色标位置为0
+		// gradient.addColorStop(1,"blue");	//色标位置为1
+        
+  //       cxt.fillStyle="blue";             //绘制蓝色矩形
+		// cxt.fillRect(0,0,50,50);
+
+		// cxt.fillStyle=gradient;           //绘制渐变蓝色矩形
+		// cxt.fillRect(30,30,50,50);
+
+		//模式
+		var image = new Image()
+		image.src="headimg2.png"
+		image.onload =function(){
+		var pattern = cxt.createPattern(image,"repeat");
+		cxt.drawImage(image,0,0,80,40);
+		// cxt.fillStyle = pattern;
+  //       cxt.fillRect(0,0,150,150);
+		}
+		
+
 				}
+
+
 		</script>
 
 </body>
