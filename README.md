@@ -28,11 +28,7 @@
       <td >&ensp;&ensp;js高程</td>     
       <td >&ensp;&ensp;js精粹</td>
  </tr>
-     <td>2016.01.30</td>
-      <td ><a href="#">json对象</a></td>
-      <td ></td>
-      <td ></td>
-      <td ></td>
+    
 <tr>
       <td>2016.01.29</td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(canvas)2016-01-29.md">canvas</a></td>
