@@ -135,7 +135,9 @@ appearance 属性允许您使元素看上去像标准的用户界面元素。所
 ![](https://github.com/Anjing1993/mypassages/blob/master/images/after.png)
 
 >注意1 ：对于 IE8 及更早版本中的 :before，：after都必须声明 <!DOCTYPE>。 
->注意2：当然开始也提到过，他们常用语清楚浮动：
+
+>注意2：当然开始也提到过，他们常用于清除浮动：
+
 
     .clearfix::before,
 	.clearfix::after {
