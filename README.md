@@ -32,7 +32,7 @@
       <td ></td>
       <td ></td>
       <td ></td>
-      <td ><a href="">:before和:after</a></td>
+      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/Permission%20denied%20(publickey)2016-02-19.md">:before和:after</a></td>
     
 <tr>
 <td>2016.02.18</td>

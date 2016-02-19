@@ -20,5 +20,10 @@
 	<p>我是静静。</p>
 	</body>
 	</html>
+运行如图：我们发现其实before可以帮助我们做很多事情，比如有特殊样式的标题，或者列表的图标
+
+![](https://github.com/Anjing1993/mypassages/blob/master/images/brfore.png)
+
+## ：after ##
 
 
