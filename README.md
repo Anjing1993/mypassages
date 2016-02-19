@@ -1,5 +1,5 @@
 # mypassages
-这是一个长期学习的模块，希望自己一定坚持学习和更新，[不断成长](https://www.processon.com/)！
+这是一个长期学习的模块，希望自己一定坚持学习和更新，不断成长！
 
 - [js(部分思维导图)](https://www.processon.com/mind/55d14785e4b014d9c57e0076)
 - 个人技能树
