@@ -30,7 +30,7 @@
    </tr>
 
 <td>2016.02.23</td>
-      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/CSS-footer2016-02-20.md">ajax</a></td>
+      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(ajax)2016-02-23.md">ajax</a></td>
       <td ></td>
       <td ></td>
       <td ></td>
