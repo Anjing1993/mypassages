@@ -136,20 +136,9 @@
 	.clearfix:after {clear: both;}
 	.clearfix {zoom: 1;}
 
-### 额外小记1：appearance ##
-看源码时看到了这个属性，出于好奇就查了查：
-appearance 属性允许您使元素看上去像标准的用户界面元素。所有主流浏览器都不支持 appearance 属性。Firefox 支持替代的 -moz-appearance 属性。Safari 和 Chrome 支持替代的 -webkit-appearance 属性。它用来改变按钮在iPhone下的默认风格，其实我们可以反过来思路，使用“appearance”属性，来改变任何元素的浏览器默认风格，简单的说，你可以使用“appearance”属性将“段落p”渲染成button的风格，也可以渲染成“输入框”、“选择框”等效果，所以还算是很棒的~~~然而它的行为是由它的值决定的：
 
-- normal	将元素呈现为常规元素。
-- icon	将元素呈现为图标（小图片）。
-- window	将元素呈现为视口。
-- button	将元素呈现为按钮。
-- menu	将元素呈现为一套供用户选择的选项。
-- field	将元素呈现为输入字段。
 
-找到一篇相关的[文章](http://www.w3cplus.com/css3/changing-appearance-of-element-with-css3.html)感觉讲得不错~~~
-
-### 额外小记2：画三角形 ##
+### 额外小记1：画三角形 ##
 之前用到类似于三角形的小图标，都会采用图片，然而页面中图片的数量会影响页面的加载速度，当时就了解到了[icon font](http://www.iconfont.cn/collections?personal=1)，要快速使用它：
 
 - 第一步：使用font-face声明字体
