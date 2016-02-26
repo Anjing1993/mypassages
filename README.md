@@ -20,14 +20,14 @@
 
    <tr>
       <td rowspan="2" >&ensp;&ensp;&ensp;时间</td>
-      <td colspan="3" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;读书</td>
+      <td colspan="3" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;读书</td>
       <td rowspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;运用</td>
       <td rowspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;社区</td>
    </tr>
    <tr>
       <td >&ensp;&ensp;js高程</td>     
       <td >&ensp;&ensp;js精粹</td>
-      <td >&ensp;css3</td>
+      <td >css3</td>
    </tr>
 <td>2016.02.26</td>
       <td ></td>
