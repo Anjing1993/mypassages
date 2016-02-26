@@ -29,7 +29,15 @@
       <td >&ensp;&ensp;js精粹</td>
       <td >&ensp;&ensp;css3</td>
    </tr>
+<td>2016.02.26</td>
+      <td ></td>
+      <td ></td>
+      <td ></td>
+      <td ></td>
+      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/%E5%88%9D%E6%8E%A2mvc2016-02-25.md">初探requirejs</a></td>
 
+    
+<tr>
 <td>2016.02.25</td>
       <td ></td>
       <td ></td>
