@@ -25,7 +25,7 @@
       <td rowspan="2" >&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;社区</td>
    </tr>
    <tr>
-      <td >&ensp;&ensp;js高程</td>     
+      <td >&ensp;&ensp;&ensp;js高程</td>     
       <td >&ensp;&ensp;js精粹</td>
       <td >css3</td>
    </tr>
