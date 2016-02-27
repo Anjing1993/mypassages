@@ -1,0 +1,2 @@
+- document.location.protocol：网络协议的标识
+- window.onhashchange：事件在当前页面URL中的hash值发生改变时触发
