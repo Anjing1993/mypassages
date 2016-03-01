@@ -39,3 +39,7 @@ h2. 2016-2-23至2016-2-23
         使用html5,jquery，zepto，bootstarp完成页面实现；利用 css3 mediu query解决pc与移动端适配问题；运用css3实现页面动画；并实现页面分页效果以及完成
         对下载过程的监控等等等等等。。。。。。
         //仅供参考，你在捉摸捉摸哈
+### git 回滚
+- git log               找到标识
+- git revert 标识       回滚
+- git push              提交
