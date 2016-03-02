@@ -29,6 +29,15 @@
       <td >&ensp;&ensp;js精粹</td>
       <td >css3</td>
    </tr>
+<td>2016.03.02</td>
+      <td ></td>
+      <td ></td>
+      <td ></td>
+      <td ></td>
+      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8C%87%E7%BA%B9%E8%AF%86%E5%88%AB2016-02-27.md">HSTS Super Cookies</a></td>
+
+    
+<tr>
 <td>2016.02.29</td>
       <td ></td>
       <td ></td>
