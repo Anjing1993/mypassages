@@ -3,7 +3,7 @@
 
 - [js(部分思维导图)](https://www.processon.com/mind/55d14785e4b014d9c57e0076)
 - 个人技能树
-- **03.04以后的文章会放到gitbook上**
+- **03.03以后的部分文章会放到gitbook上**
 
 
 
