@@ -120,16 +120,10 @@
 <td>2016.01.30</td>
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/js%E9%AB%98%E7%A8%8B(json)%E5%AF%B9%E8%B1%A12016-01-30.md">json对象</a></td>
       <td ></td>
-<<<<<<< HEAD
-      <td ><a href="#">地区联动</a></td>
-=======
+
       <td ></td>
       <td ></td>
-<<<<<<< HEAD
->>>>>>> f68a919e7300ef218d80d8991c10b6449c260d10
-=======
-      <td ></td>
->>>>>>> f68a919e7300ef218d80d8991c10b6449c260d10
+
       <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E9%80%9B%E7%A4%BE%E5%8C%BA/eval%E6%98%AF%E9%AD%94%E9%AC%BC2016-01-30.md">eval是魔鬼</a></td>
     
 <tr>
