@@ -27,9 +27,17 @@
    <tr>
       <td >&ensp;&ensp;&ensp;js高程</td>     
       <td >&ensp;&ensp;js精粹</td>
-      <td >css3</td>
+      <td >jquery</td>
    </tr>
+<td>2016.03.10</td>
+      <td ></td>
+      <td ></td>
+      <td ></td>
+      <td ><a href="https://anjing1993.gitbooks.io/xiaoxiannv/content/index.html">gitbook</a></td>
+      <td ></td>
 
+    
+<tr>
 <td>2016.03.03</td>
       <td ></td>
       <td ></td>
