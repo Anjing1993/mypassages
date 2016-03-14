@@ -144,7 +144,7 @@ h2. 2016-2-23至2016-2-23
 	
 	break; 
 
-### 严选活动页问题
+### 三月严选活动页问题
 
 - 需求：
  - 登录弹窗：
@@ -154,11 +154,59 @@ h2. 2016-2-23至2016-2-23
      - 下拉框中的列表，可以利用键盘上下键进行选择，所选中的会高亮，但不可循环，双击或者回车可将选中内容填充到输入框
      - 键盘上下键的按键必须不影响输入框中光标的位置
      - 输入框首输入空格，是不会匹配的，即不会出现下拉框
-     - 
-- window.top的使用：
-  - [http://blog.sina.com.cn/s/blog_4f925fc30100rwmd.html](http://blog.sina.com.cn/s/blog_4f925fc30100rwmd.html)
-  - [http://www.111cn.net/wy/jquery/40177.htm](http://www.111cn.net/wy/jquery/40177.htm)
-- 获取域名
-- 事件绑定
-- 跨域处理思路
-- 字符串与数组互相转换
+     - 输入验证，出现错误信息时，会提示，并且所对应的输入框会自动获取焦点
+     - 点击关闭按钮时，直接移除顶层包裹自己的iframe
+- 跨域实现无刷新登录跳转：
+
+ 附图：
+
+![](https://github.com/Anjing1993/mypassages/blob/master/images/kuayu.png)
+
+- 活动页：
+  - 点击立即领取时，判断登录状态，若没有登录，弹出登录框，即动态加载iframe
+ 
+  
+- 问题汇总：
+ 1. 登录框上下没有居中
+      - 因为是定宽高，所以利用了决定定位以及margin-top负值去居中 
+ 2. 后缀匹配不正确，即@后面输1，匹配后缀会出现vip开头的
+      - 未对@后面的字符串进行处理，固`_needDoaminSuffix[_i].indexOf(_suffix) == 0)`，即当@后面输入的字符串在保存后缀的数组中位于首位，才让它去生成相应的下拉列表
+ 3. js bug
+      - 这是jquery版本问题 
+ 4. 出现下拉框后，按上下键时，输入框的光标会移动
+      - 消除默认行为，判断键值，然后去`return false`。但是之前`return false`没用是因为，`chooselist`直接在`changeval`里面调用的，因该是将`chooselist`的返回值返回到`changeval`，或者改变触发事件`keydown--->chooselist`，`keyup--->changeval`
+ 5. 未将获取到账号的值传入隐藏得，用来传值的`input`导致了420错误
+ 6. 未注意测试环境和正常环境的判断
+      - 获取域名做判断： `var host = ((window.location.host).split("."))[1];`
+ 7. 跨域操作，导致火狐没效果
+
+      - 在里面操作外面，即在最里面的页面操作外层的页面，及顶层页面：`$(window.parent.document).find(".loginIframe").remove();`
+ 8. 弹出框挡住活动主页：
+      - 因为iframe框架默认的背景色是白色，我们需要它透明，就要给框架页面设置透明  
+ 
+
+
+- 欠缺知识点：
+ - 浏览器窗口使用：window.top等：
+	  - 获取父窗口元素：$(select,window.parent.document)
+	  - 获取父窗口的父窗口：$(select,window.parent.parent.document)
+	  - 获取最顶层窗口：$(select,window.top.document)
+	  - 获取指定id的iframe:$(window.parent.document).find("#id");
+	  - $(window.frames["testiframe"].document).find("＃testid").attr('class');
+	  
+	- jquery事件绑定：注意绑定事件函数传参问题
+	- 跨域处理思路
+	- 字符串与数组互相转换：split(".")---字符串变数组     join(".")---数组变字符串
+	- jquery很不熟练
+	- 获取页面url信息：
+	
+		    window.location
+			属性                  描述
+			hash                设置或获取 href 属性中在井号“#”后面的分段。
+			host                设置或获取 location 或 URL 的 hostname 和 port 号码。
+			hostname            设置或获取 location 或 URL 的主机名称部分。
+			href                设置或获取整个 URL 为字符串。
+			pathname            设置或获取对象指定的文件名或路径。
+			port                设置或获取与 URL 关联的端口号码。
+			protocol            设置或获取 URL 的协议部分。
+			search              设置或获取 href 属性中跟在问号后面的部分。
