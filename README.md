@@ -32,7 +32,7 @@
 <td>2016.03.11</td>
       <td ></td>
       <td ></td>
-      <td ><a href="https://anjing1993.gitbooks.io/xiaoxiannv/content/index.html">jquery事件</a></td>
+      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/jquery/%E4%BA%8B%E4%BB%B6.md">jquery事件</a></td>
       <td ></td>
       <td ></td>
 
