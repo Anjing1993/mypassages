@@ -29,6 +29,15 @@
       <td >&ensp;&ensp;js精粹</td>
       <td >jquery</td>
    </tr>
+<td>2016.03.16</td>
+      <td ></td>
+      <td ></td>
+      <td ></td>
+      <td ></td>
+      <td ><a href="https://github.com/Anjing1993/mypassages/blob/master/%E8%AF%BB%E4%B9%A6/jquery/%E4%BA%8B%E4%BB%B6.md">HSTS</a></td>
+
+    
+<tr>
 <td>2016.03.11</td>
       <td ></td>
       <td ></td>

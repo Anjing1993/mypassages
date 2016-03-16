@@ -210,3 +210,8 @@ h2. 2016-2-23至2016-2-23
 			port                设置或获取与 URL 关联的端口号码。
 			protocol            设置或获取 URL 的协议部分。
 			search              设置或获取 href 属性中跟在问号后面的部分。
+
+### vip_touch
+- window.hash:
+	- 页面中url值改变时触发
+	- 针对AJAX无缝刷新导致后退键失效而产生的事件
